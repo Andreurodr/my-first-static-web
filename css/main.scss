@@ -1,0 +1,84 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+@import "./sections/header";
+@import "./sections/sections";
+@import "./sections/footer";
+@import "./var";
+
+.h1{
+    font-size: 60px;
+    letter-spacing: -5px;
+    text-shadow: 2px 2px 2px $detailscolor;
+    @media (min-width: 1200px){
+        font-size: 80px;
+    }
+}
+
+.h2{
+    text-transform:uppercase;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px $detailscolor;
+    @media (min-width: 1200px){
+        font-size: 20px;
+    }
+
+}
+.h3{
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    padding: 50px 0;
+    text-shadow: 1px 1px 1px $detailscolor;
+    @media (min-width: 1200px){
+        font-size: 30px;
+    }    
+}
+.h3_1{
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    padding: 0 0 50px 0;
+    text-shadow: 1px 1px 1px $detailscolor;
+    
+}
+.h3_2{
+    background-color: $backgroundcolor;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    padding: 50px 0;
+    text-shadow: 1px 1px 1px $detailscolor;
+}
+.h4{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: large;
+    text-shadow: 1px 1px 1px $detailscolor;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.input{
+    width: 95%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.submit{
+    background-color: $backgroundcolor;
+    padding: 10px;
+    font-weight: bold;
+}
+textarea{
+    height: 100px;
+}

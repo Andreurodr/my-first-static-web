@@ -1,0 +1,25 @@
+header{
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid $detailscolor;
+}
+.logo{
+    width: 50px;
+    margin: 0 20px;
+}
+.header{
+    
+    &_nav{
+    background-color: $backgroundcolor;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &_menu{
+        display: inline-block;
+        margin: 5px;
+    }  
+} 
+}
+
+ 

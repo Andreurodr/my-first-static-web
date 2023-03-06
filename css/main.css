@@ -1,0 +1,292 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid gray;
+}
+
+.logo {
+  width: 50px;
+  margin: 0 20px;
+}
+
+.header_nav {
+  background-color: darkseagreen;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header_nav_menu {
+  display: inline-block;
+  margin: 5px;
+}
+
+.background {
+  background-color: black;
+}
+
+.presection {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+@media (min-width: 1200px) {
+  .presection {
+    padding: 100px;
+  }
+}
+
+.section {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.section_container {
+  align-items: center;
+}
+.section_container-img {
+  width: 100%;
+  height: 100%;
+}
+
+.section2 {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.section2_card {
+  top: 0;
+  height: 450px;
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 40px;
+}
+@media (min-width: 768px) {
+  .section2_card {
+    width: 30%;
+    height: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .section2_card {
+    width: 13%;
+    height: 550px;
+  }
+}
+.section2_card-title {
+  color: white;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.section2_card-text {
+  color: gray;
+  text-align: justify;
+}
+@media (min-width: 1200px) {
+  .section2_card-text {
+    font-size: 14px;
+  }
+}
+.section2_card-img {
+  margin: 20px 0;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.section3 {
+  background-color: darkseagreen;
+  height: auto;
+  display: grid;
+  padding: 0 20px 50px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 320px 320px 320px;
+}
+.section3_set {
+  background-color: darkseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3_set1 {
+  background-color: darkseagreen;
+  grid-column: 1/3;
+  border-bottom: 1px solid gray;
+}
+.section3_set2 {
+  background-color: darkseagreen;
+  grid-column: 2/4;
+  border-bottom: 1px solid gray;
+}
+
+.set_img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px black;
+}
+@media (min-width: 768px) {
+  .set_img {
+    width: 250px;
+  }
+}
+@media (min-width: 1200px) {
+  .set_img {
+    width: 300px;
+  }
+}
+
+.set_text {
+  text-align: justify;
+  font-size: 14px;
+  padding: 15px;
+}
+@media (min-width: 1200px) {
+  .set_text {
+    font-size: 16px;
+  }
+}
+
+.section4 {
+  height: 750px;
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+}
+@media (min-width: 1200px) {
+  .section4 {
+    padding: 100px;
+  }
+}
+.section4_contact {
+  color: white;
+}
+
+.footer {
+  height: 50px;
+  background-color: darkseagreen;
+  padding-top: 10px;
+  text-align: center;
+}
+.footer_span {
+  padding: 0 10px;
+  font-size: 8px;
+}
+@media (min-width: 768px) {
+  .footer_span {
+    padding: 0 50px;
+    font-size: small;
+  }
+}
+@media (min-width: 1200px) {
+  .footer_span {
+    padding: 0 125px;
+  }
+}
+
+.h1 {
+  font-size: 60px;
+  letter-spacing: -5px;
+  text-shadow: 2px 2px 2px gray;
+}
+@media (min-width: 1200px) {
+  .h1 {
+    font-size: 80px;
+  }
+}
+
+.h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: normal;
+  padding-top: 10px;
+  text-shadow: 1px 1px 1px gray;
+}
+@media (min-width: 1200px) {
+  .h2 {
+    font-size: 20px;
+  }
+}
+
+.h3 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  padding: 50px 0;
+  text-shadow: 1px 1px 1px gray;
+}
+@media (min-width: 1200px) {
+  .h3 {
+    font-size: 30px;
+  }
+}
+
+.h3_1 {
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  padding: 0 0 50px 0;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.h3_2 {
+  background-color: darkseagreen;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  padding: 50px 0;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.h4 {
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-size: large;
+  text-shadow: 1px 1px 1px gray;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.input {
+  width: 95%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.submit {
+  background-color: darkseagreen;
+  padding: 10px;
+  font-weight: bold;
+}
+
+textarea {
+  height: 100px;
+}/*# sourceMappingURL=main.css.map */
