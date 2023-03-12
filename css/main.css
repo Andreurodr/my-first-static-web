@@ -76,7 +76,7 @@ header {
   padding-bottom: 50px;
 }
 .section2_card {
-  height: 550px;
+  height: 600px;
   width: 50%;
   border: 1px solid gray;
   border-radius: 10px;
@@ -121,7 +121,7 @@ header {
   display: grid;
   padding: 0 20px 50px 20px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 320px 320px 320px;
+  grid-template-rows: 350px 350px 350px;
 }
 .section3_set {
   background-color: darkseagreen;
